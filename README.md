@@ -7,7 +7,7 @@ React Accordion is a user-friendly component library for React applications, pro
 ## Screenshots
 
 
-![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qli89f49v0npenmzeyj6.png)
+![App Screenshot](https://raw.githubusercontent.com/kamalanathan23/React-Accordion/46b037ea52fc9152b5f6a29904a87d864a67ae87/src/images/accordion.png)
 
 
 ## Tech Stack
