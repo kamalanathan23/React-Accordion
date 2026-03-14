@@ -18,5 +18,5 @@ React Accordion is a user-friendly component library for React applications, pro
 
 ## Live Preview
 
-react-accordion-wheat.vercel.app
+https://react-accordion-wheat.vercel.app/
 
