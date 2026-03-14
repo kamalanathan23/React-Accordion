@@ -1,27 +1,33 @@
-import Tabs from './Components/Tabs';
+import Accordion from "./Components/Accordion";
 
 function App() {
 
-  const tabs = [
-    {
-      title: 'Accounts',
-      content: 'Money owed by a business to its suppliers shown as a liability on a companys balance sheet. It is distinct from notes payable liabilities, which are debts created by formal legal instrument documents.'
+  const data = [
+    { 
+      title: 'How To Cancel Chase Card?', 
+      content: 'Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor.' 
     },
-    {
-      title: 'Payroll',
-      content: 'Payroll is the total of all compensation a business must pay to its employees for a set period of time or on a given date.'
+    { 
+      title: 'What is Global Web Pay Alternative?', 
+      content: 'Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor.' 
     },
-    {
-      title: 'Tax',
-      content: 'A tax refund or tax rebate is a payment to the taxpayer due to the taxpayer having paid more tax than they owed.'
+    { 
+      title: 'What are BIC and SWIFT codes?', 
+      content: 'Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor.' 
+    },
+    { 
+      title: 'Explaining what Britains exit from the EU means?', 
+      content: 'Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor.' 
     },
   ];
-  
+
   return (
     <>
-      <Tabs tabs={tabs} />
+      <Accordion data={data} />
     </>
   );
 }
 
+
+// live dependecy: font-family, 100vh, jerk animation
 export default App;
